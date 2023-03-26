@@ -1,0 +1,8 @@
+.page-search-form-wrapper {
+    margin: 5px 15px;
+}
+
+.page-search-form-wrapper input {
+    width: 450px;
+    max-width: 100%;
+}

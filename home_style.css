@@ -1,0 +1,19 @@
+.category-card-wrapper a {
+    font-size: 1.25rem;
+    color: var(--green);
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+.category-card-wrapper a:hover {
+    color: var(--yellow);
+}
+
+.best-selling-slider .swiper-slide {
+    min-height: 350px;
+}
+.primary-btn {
+    transition: all .3s ease-in-out;
+}
+.primary-btn:hover {
+    background: #e5b61d !important;
+}

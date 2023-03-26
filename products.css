@@ -1,0 +1,18 @@
+.category-card-wrapper {
+    height: 100%;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+    box-shadow: 1px 1px 5px 0px rgba(235, 235, 235, 0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(235, 235, 235, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(235, 235, 235, 0.75);
+}
+.category-card-wrapper:hover {
+    transform: scale(1.08);
+}
+
+.category-card-wrapper .product-detail-wrapper {
+    margin-top: 1.5rem;
+}
+.product-detail-wrapper .price {
+    font-weight: 700;
+}

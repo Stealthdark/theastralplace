@@ -1,0 +1,9 @@
+@import "variable.css";
+@import "style.css";
+@import "home_style.css";
+@import "404_style.css";
+@import "products.css";
+
+@import "/node_modules/bootstrap/dist/css/bootstrap.css";
+@import "/node_modules/font-awesome/css/font-awesome.min.css";
+/* @import "/node_modules/swiper/swiper.css"; */
