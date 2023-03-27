@@ -218,7 +218,7 @@ footer {
 
 .footer-widgets-wrapper p {
     margin-bottom: 0;
-    font-weight: 700;
+    font-size: 14px;
 }
 
 .footer-widgets-wrapper a {
@@ -229,7 +229,7 @@ footer {
 
 .footer-widgets-wrapper a:hover {
     color: var(--yellow);
-    margin-left: 10px;
+    padding-left: 10px;
 }
 
 .footer-widgets-wrapper h2 {
