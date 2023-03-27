@@ -46,6 +46,10 @@ body.overlay::after {
     height: 100%;
 }
 
+.nav-item a {
+    color: var(--green);
+}
+
 .toggle {
     outline: 0;
     border: 0;
