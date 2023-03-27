@@ -1,5 +1,4 @@
 .category-card-wrapper a {
-    display: block;
     font-size: 1.25rem;
     color: var(--green);
     transition: all .3s ease-in-out;
