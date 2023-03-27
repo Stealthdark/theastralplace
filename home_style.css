@@ -1,10 +1,10 @@
-.category-card-wrapper a {
+.category-card-wrapper h2 {
     font-size: 1.25rem;
     color: var(--green);
     transition: all .3s ease-in-out;
     text-decoration: none;
 }
-.category-card-wrapper a:hover {
+.category-card-wrapper:hover h2 {
     color: var(--yellow);
 }
 
