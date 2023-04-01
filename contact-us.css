@@ -14,6 +14,7 @@
     color: var(--green);
     font-weight: 700;
 }
+
 .contact-form-box .social-media-wrapper a {
     margin: 10px;
     padding: 5px;
@@ -59,12 +60,15 @@
 .contact-form-box .social-media-wrapper a:nth-child(4) {
     background-color: #0077B5;
 }
+
 .contact-form {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.contact-form input, .contact-form textarea {
+
+.contact-form input,
+.contact-form textarea {
     border: 0;
     outline: none;
     background-color: #f6f6f6;
