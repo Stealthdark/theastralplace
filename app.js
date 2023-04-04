@@ -20,7 +20,7 @@ const bannerSlider = new Swiper(".banner-slider", {
     },
     autoplay: {
         delay: 2500,
-        disableOnInteraction: false,
+        disableOnInteraction: true,
     },
 });
 
@@ -34,7 +34,7 @@ const bestSellingSlider = new Swiper(".best-selling-slider", {
     },
     autoplay: {
         delay: 2500,
-        disableOnInteraction: false,
+        disableOnInteraction: true,
     },
     breakpoints: {
 
