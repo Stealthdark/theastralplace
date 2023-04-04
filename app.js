@@ -13,7 +13,7 @@ $("#navbarDropdown").click(function () {
 const bannerSlider = new Swiper(".banner-slider", {
     slidesPerView: 1,
     spaceBetween: 30,
-    allowTouchMove: True,
+    allowTouchMove: true,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -27,7 +27,7 @@ const bannerSlider = new Swiper(".banner-slider", {
 const bestSellingSlider = new Swiper(".best-selling-slider", {
     slidesPerView: 1,
     spaceBetween: 30,
-    allowTouchMove: True,
+    allowTouchMove: true,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
