@@ -1,3 +1,6 @@
+.category-card-wrapper {
+    text-decoration: none;
+}
 .category-card-wrapper h2 {
     font-size: 1.25rem;
     color: var(--green);
