@@ -1,6 +1,7 @@
-html:has( .popup.show) {
+html:has(.popup.show) {
     overflow: hidden;
 }
+
 header {
     background: var(--white);
     position: relative;
@@ -84,20 +85,20 @@ body.overlay::after {
 }
 
 .menu-wrapper {
-    position: absolute;
-    background: var(--gray);
-    top: 100%;
+    position: fixed;
+    background: var(--white);
+    top: 175px;
     right: 0;
     padding: 15px;
     z-index: 2;
-    transform: translateX(150%);
-    margin-top: 25px;
+    transform: translatex(120%);
     transition: all .3s ease-in-out;
     min-width: 50vw;
-    min-height: 85vh;
     box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.75);
+    min-height: 85vh;
+
 }
 
 .toggle.is-active+.menu-wrapper {
@@ -215,6 +216,7 @@ footer {
 .social-links a:hover img {
     transform: scale(1.2);
 }
+
 .social-links img {
     transition: all .3s ease-in-out;
     width: 100%;
@@ -250,3 +252,10 @@ footer {
 }
 
 /* FOOTER CSS ENDS HERE */
+
+
+@media(max-width: 991px) {
+    .menu-wrapper {
+        top: 123px;
+    }
+}
