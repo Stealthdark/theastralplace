@@ -216,3 +216,9 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+@media(max-width: 768px) {
+    .image-buttons {
+        grid-template-columns: repeat(4, auto);
+    }
+}
