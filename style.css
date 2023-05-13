@@ -1,3 +1,6 @@
+html:has( .popup.show) {
+    overflow: hidden;
+}
 header {
     background: var(--white);
     position: relative;
