@@ -4,7 +4,17 @@ $("button#menu").click(function () {
 });
 $("#navbarDropdown").click(function () {
     $(this).toggleClass("is-active");
-    $('body').toggleClass("overlay");
+});
+
+var header = $('header');
+
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 100) {
+        $('header').addClass("fixed-top shadow");
+    } else {
+        $('header').removeClass("fixed-top shadow");
+    }
 });
 
 // SWIPER JS -------------
@@ -20,7 +30,7 @@ const bannerSlider = new Swiper(".banner-slider", {
     },
     autoplay: {
         delay: 2500,
-        disableOnInteraction: true,
+        // disableOnInteraction: true,
     },
 });
 
@@ -36,17 +46,18 @@ const bestSellingSlider = new Swiper(".best-selling-slider", {
         el: ".swiper-pagination",
         clickable: true,
     },
-    // autoplay: {
-    //     delay: 2500,
-    //     // disableOnInteraction: true,
-    // },
+    autoplay: {
+        delay: 2500,
+        // disableOnInteraction: true,
+    },
     breakpoints: {
 
         768: {
             slidesPerView: 2
         },
         1200: {
-            slidesPerView: 4
+            slidesPerView: 4,
+            autoplay: false
         }
     },
 });

@@ -1,3 +1,11 @@
+header.fixed-top+main section.category-section>div>div {
+    padding-top: 180px !important;
+}
+
+header.fixed-top+main:has(section.category-section > div > div) {
+    padding-top: 0 !important;
+}
+
 .category-card-wrapper {
     display: block;
     height: 100%;
@@ -48,6 +56,12 @@
 @media(min-width: 768px) {
     .category-card-wrapper:hover .category-icon-wrapper {
         transform: scale(1.08);
+    }
+}
+
+@media (max-width: 991px) {
+    header.fixed-top+main section.category-section>div>div {
+        padding-top: 123px;
     }
 }
 

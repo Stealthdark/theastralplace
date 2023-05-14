@@ -6,6 +6,11 @@ header {
     background: var(--white);
     position: relative;
     z-index: 9999;
+    transition: all .3s ease-in-out;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
 }
 
 .brand-logo {
@@ -164,27 +169,34 @@ body.overlay::after {
     color: var(--yellow);
 }
 
-/* MAIN CSS STARTS HERE */
-main {
+/* MAIN CSS STARTS HERE `*/
+header.fixed-top+main {
+    padding-top: 175px;
     min-height: calc(100vh - 697.98px);
+}
+
+@media(max-width: 991px) {
+    header.fixed-top+main {
+        padding-top: 123px;
+    }
 }
 
 /* MAIN CSS ENDS HERE */
 
 /* SWIPER CSS STARTS HERE */
-.swiper {
+/* .swiper {
     width: 100%;
     height: 100%;
-}
+} */
 
-.swiper-slide {
+/* .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .swiper-slide img {
     display: block;
