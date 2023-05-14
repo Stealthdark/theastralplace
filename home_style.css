@@ -1,12 +1,14 @@
 .category-card-wrapper {
     text-decoration: none;
 }
+
 .category-card-wrapper h2 {
     font-size: 1.25rem;
     color: var(--green);
     transition: all .3s ease-in-out;
     text-decoration: none;
 }
+
 .category-card-wrapper:hover h2 {
     color: var(--yellow);
 }
@@ -14,9 +16,53 @@
 .best-selling-slider .swiper-slide {
     min-height: 350px;
 }
+
 .primary-btn {
     transition: all .3s ease-in-out;
 }
+
 .primary-btn:hover {
     background: #e5b61d !important;
+}
+
+/* Best Selling Product Slider CSS Starts here */
+.best-selling-slider.swiper {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.best-selling-slider .swiper-button-next,
+.best-selling-slider .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    background-color: var(--green);
+    border-radius: 50%;
+}
+
+.best-selling-slider .swiper-button-next:after,
+.best-selling-slider .swiper-button-prev:after {
+    font-size: 16px;
+    color: var(--white);
+}
+
+.best-selling-slider .swiper-button-next {
+    right: 0;
+}
+
+.best-selling-slider .swiper-button-prev {
+    left: 0;
+}
+
+.best-selling-slider.swiper .product-detail-wrapper {
+    text-align: left;
+}
+@media (max-width: 991px) {
+    .best-selling-slider.swiper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .best-selling-slider.swiper .category-card-wrapper {
+        padding: 20px;
+    }
 }

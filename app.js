@@ -28,14 +28,18 @@ const bestSellingSlider = new Swiper(".best-selling-slider", {
     slidesPerView: 1,
     spaceBetween: 30,
     allowTouchMove: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
     },
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: true,
-    },
+    // autoplay: {
+    //     delay: 2500,
+    //     // disableOnInteraction: true,
+    // },
     breakpoints: {
 
         768: {
