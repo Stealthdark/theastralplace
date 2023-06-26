@@ -208,6 +208,7 @@ header.fixed-top+main:has(section.category-section > div > div) {
     padding: 15px;
     overflow: auto;
     position: fixed;
+    z-index: 1031;
     top: 0;
 }
 
