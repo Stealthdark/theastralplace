@@ -224,7 +224,7 @@ header.fixed-top+main:has(section.category-section > div > div) {
     border-radius: 15px;
     padding: 15px;
     position: relative;
-    z-index: 2;
+    z-index: 3;
     max-height: 600px;
 }
 
